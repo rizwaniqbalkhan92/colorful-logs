@@ -1,0 +1,19 @@
+{
+  "name": "rizwan-library",
+  "version": "1.0.0",
+  "description": "\"# colorful-logs\"",
+  "main": "index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    
+    "build":"tsc",
+    "prepare": "npm run build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.1.6"
+  },
+  "files": ["lib/**/*"]
+}
